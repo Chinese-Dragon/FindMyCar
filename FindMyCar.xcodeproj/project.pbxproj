@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D24D7E020321D5500C2AFD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24D7DF20321D5500C2AFD7 /* AppDelegate.swift */; };
+		4D24D7E220321D5500C2AFD7 /* FindMyCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24D7E120321D5500C2AFD7 /* FindMyCarViewController.swift */; };
+		4D24D7E520321D5500C2AFD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D24D7E320321D5500C2AFD7 /* Main.storyboard */; };
+		4D24D7E720321D5500C2AFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D24D7E620321D5500C2AFD7 /* Assets.xcassets */; };
+		4D24D7EA20321D5500C2AFD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D24D7E820321D5500C2AFD7 /* LaunchScreen.storyboard */; };
+		4D24D7F320323B5200C2AFD7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24D7F220323B5200C2AFD7 /* Utilities.swift */; };
+		D90F2BB097D8EE6B70B1050C /* Pods_FindMyCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A251F7B8E279810C4E867A08 /* Pods_FindMyCar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D24D7DC20321D5500C2AFD7 /* FindMyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D24D7DF20321D5500C2AFD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D24D7E120321D5500C2AFD7 /* FindMyCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyCarViewController.swift; sourceTree = "<group>"; };
+		4D24D7E420321D5500C2AFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D24D7E620321D5500C2AFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D24D7E920321D5500C2AFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D24D7EB20321D5500C2AFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D24D7F220323B5200C2AFD7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A251F7B8E279810C4E867A08 /* Pods_FindMyCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D941CE25BBE03CD6E4AE5940 /* Pods-FindMyCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyCar/Pods-FindMyCar.debug.xcconfig"; sourceTree = "<group>"; };
+		DB7A120D7317794302BE6E72 /* Pods-FindMyCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyCar/Pods-FindMyCar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D24D7D920321D5500C2AFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F2BB097D8EE6B70B1050C /* Pods_FindMyCar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D24D7D320321D5500C2AFD7 = {
+			isa = PBXGroup;
+			children = (
+				4D24D7DE20321D5500C2AFD7 /* FindMyCar */,
+				4D24D7DD20321D5500C2AFD7 /* Products */,
+				DF6E183A6DD4E0D76F876FF9 /* Pods */,
+				D7DA3540D28EBC89458C3336 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D24D7DD20321D5500C2AFD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D24D7DC20321D5500C2AFD7 /* FindMyCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D24D7DE20321D5500C2AFD7 /* FindMyCar */ = {
+			isa = PBXGroup;
+			children = (
+				4D24D7F120321DC800C2AFD7 /* Supporting Files */,
+				4D24D7E120321D5500C2AFD7 /* FindMyCarViewController.swift */,
+				4D24D7E320321D5500C2AFD7 /* Main.storyboard */,
+				4D24D7F220323B5200C2AFD7 /* Utilities.swift */,
+			);
+			path = FindMyCar;
+			sourceTree = "<group>";
+		};
+		4D24D7F120321DC800C2AFD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D24D7DF20321D5500C2AFD7 /* AppDelegate.swift */,
+				4D24D7E620321D5500C2AFD7 /* Assets.xcassets */,
+				4D24D7E820321D5500C2AFD7 /* LaunchScreen.storyboard */,
+				4D24D7EB20321D5500C2AFD7 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7DA3540D28EBC89458C3336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A251F7B8E279810C4E867A08 /* Pods_FindMyCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6E183A6DD4E0D76F876FF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D941CE25BBE03CD6E4AE5940 /* Pods-FindMyCar.debug.xcconfig */,
+				DB7A120D7317794302BE6E72 /* Pods-FindMyCar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D24D7DB20321D5500C2AFD7 /* FindMyCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D24D7EE20321D5500C2AFD7 /* Build configuration list for PBXNativeTarget "FindMyCar" */;
+			buildPhases = (
+				A06555D417EF779BE646D2BB /* [CP] Check Pods Manifest.lock */,
+				4D24D7D820321D5500C2AFD7 /* Sources */,
+				4D24D7D920321D5500C2AFD7 /* Frameworks */,
+				4D24D7DA20321D5500C2AFD7 /* Resources */,
+				BC93DA0E51C1EC1EC1468C5E /* [CP] Embed Pods Frameworks */,
+				CFA875E2BE7775721C1674ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyCar;
+			productName = FindMyCar;
+			productReference = 4D24D7DC20321D5500C2AFD7 /* FindMyCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D24D7D420321D5500C2AFD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mark;
+				TargetAttributes = {
+					4D24D7DB20321D5500C2AFD7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D24D7D720321D5500C2AFD7 /* Build configuration list for PBXProject "FindMyCar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D24D7D320321D5500C2AFD7;
+			productRefGroup = 4D24D7DD20321D5500C2AFD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D24D7DB20321D5500C2AFD7 /* FindMyCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D24D7DA20321D5500C2AFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D24D7EA20321D5500C2AFD7 /* LaunchScreen.storyboard in Resources */,
+				4D24D7E720321D5500C2AFD7 /* Assets.xcassets in Resources */,
+				4D24D7E520321D5500C2AFD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A06555D417EF779BE646D2BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC93DA0E51C1EC1EC1468C5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyCar/Pods-FindMyCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA875E2BE7775721C1674ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindMyCar/Pods-FindMyCar-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyCar/Pods-FindMyCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D24D7D820321D5500C2AFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D24D7F320323B5200C2AFD7 /* Utilities.swift in Sources */,
+				4D24D7E220321D5500C2AFD7 /* FindMyCarViewController.swift in Sources */,
+				4D24D7E020321D5500C2AFD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D24D7E320321D5500C2AFD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D24D7E420321D5500C2AFD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D24D7E820321D5500C2AFD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D24D7E920321D5500C2AFD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D24D7EC20321D5500C2AFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D24D7ED20321D5500C2AFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D24D7EF20321D5500C2AFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D941CE25BBE03CD6E4AE5940 /* Pods-FindMyCar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88F5VS94FS;
+				INFOPLIST_FILE = "$(SRCROOT)/FindMyCar/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HungryFool.FindMyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D24D7F020321D5500C2AFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7A120D7317794302BE6E72 /* Pods-FindMyCar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88F5VS94FS;
+				INFOPLIST_FILE = "$(SRCROOT)/FindMyCar/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HungryFool.FindMyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D24D7D720321D5500C2AFD7 /* Build configuration list for PBXProject "FindMyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D24D7EC20321D5500C2AFD7 /* Debug */,
+				4D24D7ED20321D5500C2AFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D24D7EE20321D5500C2AFD7 /* Build configuration list for PBXNativeTarget "FindMyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D24D7EF20321D5500C2AFD7 /* Debug */,
+				4D24D7F020321D5500C2AFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D24D7D420321D5500C2AFD7 /* Project object */;
+}

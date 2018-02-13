@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Find My Car View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="FindMyCarViewController" customModule="FindMyCar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v6j-HK-FZW" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CompassDirection" translatesAutoresizingMaskIntoConstraints="NO" id="ui5-nu-yvF">
+                                <rect key="frame" x="137" y="40" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="nj2-4D-pj5"/>
+                                    <constraint firstAttribute="width" constant="100" id="xkZ-qg-KWc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wx3-jz-0HB">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.00022075469310000001" green="0.73142164949999999" blue="0.8946492076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3x5-Y3-Yja"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Park My Car">
+                                    <color key="titleColor" red="0.94891661410000006" green="0.9490789771" blue="0.94890636210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="parkCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h1m-td-HOM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23m" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="AiL-tF-gRu">
+                                <rect key="frame" x="157" y="80" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="AqE-Oq-i0L"/>
+                                    <constraint firstAttribute="height" constant="30" id="a2Q-pV-h83"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="0.32754796549999998" green="0.6926292584" blue="0.87704235409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v6j-HK-FZW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2qw-41-z8Q"/>
+                            <constraint firstItem="AiL-tF-gRu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="3KD-pf-4xp"/>
+                            <constraint firstItem="v6j-HK-FZW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8bD-zT-WbD"/>
+                            <constraint firstItem="v6j-HK-FZW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MCG-xh-tgx"/>
+                            <constraint firstItem="wx3-jz-0HB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Php-Fb-FJv"/>
+                            <constraint firstItem="ui5-nu-yvF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="R7t-N3-MRH"/>
+                            <constraint firstItem="wx3-jz-0HB" firstAttribute="top" secondItem="v6j-HK-FZW" secondAttribute="bottom" id="TG7-lD-z3B"/>
+                            <constraint firstItem="AiL-tF-gRu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UPZ-do-w3S"/>
+                            <constraint firstItem="wx3-jz-0HB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kK9-vx-alC"/>
+                            <constraint firstAttribute="bottom" secondItem="wx3-jz-0HB" secondAttribute="bottom" id="n1F-0i-Lto"/>
+                            <constraint firstItem="ui5-nu-yvF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sNg-Xu-FzB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="carDirection" destination="ui5-nu-yvF" id="4Xy-5g-vlZ"/>
+                        <outlet property="carDistance" destination="AiL-tF-gRu" id="zeM-7g-Z4f"/>
+                        <outlet property="googleMap" destination="v6j-HK-FZW" id="zOd-WS-iRa"/>
+                        <outlet property="parkCarButton" destination="wx3-jz-0HB" id="Aqn-3g-Gi1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CompassDirection" width="50" height="50"/>
+    </resources>
+</document>
